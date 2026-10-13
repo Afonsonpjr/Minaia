@@ -13,7 +13,7 @@ Configuração de referência: Minecraft Java **26.1.2**, Fabric, Windows, Java 
    java -jar fabric-installer.jar server -mcversion 26.1.2 -downloadMinecraft
    ```
 4. Confira o JAR inicializável gerado. Se tiver outro nome, renomeie **o launcher Fabric** para `fabric-server-launch.jar` (não renomeie `server.jar`).
-5. Coloque as versões para **26.1.2** dos mods desejados em `servidor/mods/`. Fabric API de referência: `fabric-api-0.155.3+26.1.2.jar`. Carpet mencionado no plano: `fabric-carpet-26.1+v260402.jar` (verifique o carregamento e os comandos; a compatibilidade exata deve ser testada).
+5. Coloque as versões para **26.1.2** dos mods desejados em `servidor/mods/`. Fabric API com versão confirmada para Minecraft 26.1.2: `fabric-api-0.152.1+26.1.2.jar`. Carpet mencionado no plano: `fabric-carpet-26.1+v260402.jar` (verifique o carregamento e os comandos; a compatibilidade exata deve ser testada).
 6. Leia a EULA: https://aka.ms/MinecraftEULA. **Só se concordar**, altere `servidor/eula.txt` para `eula=true`. O repositório mantém `eula=false`.
 7. Execute `servidor/start.bat`. Espere `Done`; adicione jogadores usando `whitelist add NomeDoJogador` no console.
 
