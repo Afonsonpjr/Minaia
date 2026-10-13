@@ -1,0 +1,7 @@
+# Copie para %USERPROFILE%\.cloudflared\config.yml; substitua o UUID e o usuario
+tunnel: SEU_TUNNEL_UUID
+credentials-file: C:\Users\SEU_USUARIO\.cloudflared\SEU_TUNNEL_UUID.json
+ingress:
+  - hostname: mc.inkit.casa
+    service: tcp://127.0.0.1:25565
+  - service: http_status:404
