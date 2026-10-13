@@ -1,0 +1,19 @@
+# Minecraft runtime / confidential server state
+**/world/
+**/world_nether/
+**/world_the_end/
+**/logs/
+**/crash-reports/
+**/backups/
+**/usercache.json
+**/ops.json
+**/whitelist.json
+**/banned-ips.json
+**/banned-players.json
+**/eula.txt.local
+**/*.jar
+**/cert.pem
+**/.cloudflared/
+**/config.yml
+**/*-tunnel-credentials.json
+**/tunnel-credentials.json
